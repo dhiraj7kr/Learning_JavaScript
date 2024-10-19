@@ -1,0 +1,38 @@
+p  {
+    font-size: 24px;
+    font-weight: bold;
+    color: blueviolet;
+
+   }
+
+body{
+
+    /* background-color: rgb(212, 204, 195); */
+    /* background-image: url('./image/clouds-7813335_1280.webp'); */
+    background-color: rgb(255, 255, 255);
+    border: 10px solid blue;
+    border-radius: 20px;
+    padding: 12px,12px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+div p{
+
+    color: rgb(69, 69, 62);
+}
+
+#firstParagraph {
+
+color: rgb(21, 27, 220);
+background-image:url(./image/Acuvate.jpg);
+}
+
+#secondParagraph {
+
+    font-size: 55px;
+    border: 10px solid green;
+    border-radius: 20px;
+    /* float: right;
+    margin: 20px; */
+}

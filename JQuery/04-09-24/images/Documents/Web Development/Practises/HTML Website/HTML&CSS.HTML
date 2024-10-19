@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Notes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>HTML Notes</h1>
+        <nav>
+            <ul>
+                <li><a href="#intro">Introduction to HTML</a></li>
+                <li><a href="#tags">Common HTML Tags</a></li>
+                <li><a href="#forms">HTML Forms</a></li>
+                <li><a href="#media">Embedding Media</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="intro">
+            <h2>Introduction to HTML</h2>
+            <p>HTML (HyperText Markup Language) is the standard markup language used to create web pages. It describes the structure of a webpage using elements represented by tags.</p>
+            <h3>Example:</h3>
+            <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;My First Page&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;h1&gt;Hello, World!&lt;/h1&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+            </code></pre>
+        </section>
+
+        <section id="tags">
+            <h2>Common HTML Tags</h2>
+            <h3>Headings</h3>
+            <p>HTML headings are defined with the &lt;h1&gt; to &lt;h6&gt; tags.</p>
+            <h3>Example:</h3>
+            <pre><code>&lt;h1&gt;This is a heading&lt;/h1&gt;
+&lt;h2&gt;This is a subheading&lt;/h2&gt;
+            </code></pre>
+            
+            <h3>Paragraphs</h3>
+            <p>HTML paragraphs are defined with the &lt;p&gt; tag.</p>
+            <h3>Example:</h3>
+            <pre><code>&lt;p&gt;This is a paragraph.&lt;/p&gt;
+            </code></pre>
+        </section>
+
+        <section id="forms">
+            <h2>HTML Forms</h2>
+            <p>Forms are used to collect user input.</p>
+            <h3>Example:</h3>
+            <pre><code>&lt;form&gt;
+  &lt;label for="name"&gt;Name:&lt;/label&gt;
+  &lt;input type="text" id="name" name="name"&gt;
+  &lt;input type="submit" value="Submit"&gt;
+&lt;/form&gt;
+            </code></pre>
+        </section>
+
+        <section id="media">
+            <h2>Embedding Media</h2>
+            <p>You can embed images, videos, and audio files in HTML.</p>
+            <h3>Example:</h3>
+            <pre><code>&lt;img src="image.jpg" alt="Image description"&gt;
+&lt;video controls&gt;
+  &lt;source src="movie.mp4" type="video/mp4"&gt;
+&lt;/video&gt;
+            </code></pre>
+        </section>
+        <section>
+             <h1>Basic HTML Structure</h1>
+    <p>The basic structure of an HTML document includes the <code>&lt;!DOCTYPE&gt;</code> declaration, as well as the <code>&lt;html&gt;</code>, <code>&lt;head&gt;</code>, and <code>&lt;body&gt;</code> tags. Here's a simple example:</p>
+    
+    <pre>
+<code>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Your Page Title&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;Hello, World!&lt;/h1&gt;
+    &lt;p&gt;This is a basic HTML structure.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code>
+    </pre>
+
+    <h2>Explanation:</h2>
+    <ul>
+        <li><code>&lt;!DOCTYPE html&gt;</code>: This declaration defines the document type and version of HTML. In this case, it specifies HTML5.</li>
+        <li><code>&lt;html lang="en"&gt;</code>: This tag wraps the entire HTML content and specifies the language of the document (<code>lang="en"</code> indicates English).</li>
+        <li><code>&lt;head&gt;</code>: This section contains metadata about the document, such as the character set (<code>&lt;meta charset="UTF-8"&gt;</code>), viewport settings for responsive design, and the title of the webpage (<code>&lt;title&gt;</code>).</li>
+        <li><code>&lt;body&gt;</code>: This section contains the visible content of the page, such as headings (<code>&lt;h1&gt;</code>) and paragraphs (<code>&lt;p&gt;</code>).</li>
+    </ul>
+        </section>
+        <section>
+            
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 HTML Notes</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
